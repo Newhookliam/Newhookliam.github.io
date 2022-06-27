@@ -10,3 +10,12 @@ button.addEventListener('click', function () {
     document.body.style.backgroundColor = newColor;
     h1.innerText = newColor;
 })
+
+
+function textColor() {
+    for (let i = 0; i < newColor.length; i++) {
+        let colorR;
+        colorR = newcolor < 20;
+        h1.style.color[i] = "white";
+    }
+}
