@@ -7,15 +7,10 @@ button.addEventListener('click', function () {
     const g = Math.floor(Math.random() * 255);
     const b = Math.floor(Math.random() * 255);
     const newColor = `rgb(${r}, ${g}, ${b})`;
+    if (r <= 100 && g <= 100 && b <= 100) {
+        h1.style.color = "white";
+    }
     document.body.style.backgroundColor = newColor;
     h1.innerText = newColor;
 })
 
-
-function textColor() {
-    for (let i = 0; i < newColor.length; i++) {
-        let colorR;
-        colorR = newcolor < 20;
-        h1.style.color[i] = "white";
-    }
-}
