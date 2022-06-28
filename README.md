@@ -1,9 +1,8 @@
-<<<<<<< HEAD
+
 # LandingPage
-=======
 # Newhookliam.github.io
 
->>>>>>> dceaba2216a22da3b255aa2bba5e920af8d384f3
+
 To showcase my projects and skills
 
 Working on my HTML and CSS for the past two years now, Everything learned has been self taught with the help of Udemy courses and Youtube.
