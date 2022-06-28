@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(7, 136, 129);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    padding: 30px;
+}
+input {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+#btn {
+    width: 80%;
+    padding: 5px 0px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+#inputGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.inputSection {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+}
+
+#important, #nice {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    height: 223px;
+}
+
+ul {
+    padding: 2px;
+    margin-top: 2px;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
