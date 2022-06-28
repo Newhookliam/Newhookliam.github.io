@@ -25,3 +25,9 @@ form.addEventListener('submit', function (e) {
     lastName.value = '';
     email.value = '';
 });
+
+const ulContainer = document.querySelector('#details')
+
+ulContainer.addEventListener('click', function (e) {
+    e.target.nodeName === 'LI' && e.target.remove();
+})
