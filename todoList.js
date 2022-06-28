@@ -14,7 +14,6 @@ btn.addEventListener('click', function (e) {
         newLi.innerText = item;
         ulImportant.append(newLi);
         ulImportant.style.listStyle = 'none';
-        ulImportant.style.textAlign = 'center';
 
         input.value = "";
         e.stopImmediatePropagation();
@@ -29,7 +28,6 @@ btn.addEventListener('click', function (e) {
     newLi2.innerText = item2;
     ulNice.append(newLi2);
     ulNice.style.listStyle = 'none';
-    ulNice.style.textAlign = 'center';
 
     input.value = "";
 })

@@ -26,6 +26,7 @@ form.addEventListener('submit', function (e) {
     email.value = '';
 });
 
+//remove LIs whern clicked.
 const ulContainer = document.querySelector('#details')
 
 ulContainer.addEventListener('click', function (e) {
