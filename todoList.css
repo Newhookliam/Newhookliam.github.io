@@ -59,15 +59,12 @@ a:hover {
     padding-right: 20px;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid white;
 }
 
 #important, #nice {
     text-align: center;
     text-decoration: none;
     color: white;
-    border-right: 1px solid white;
-    height: 223px;
 }
 
 ul {
