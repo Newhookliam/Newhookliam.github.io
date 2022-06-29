@@ -3,6 +3,16 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+a:hover {
+    color: lightseagreen;
+}
+
 img {
     width: 100%;
 }
