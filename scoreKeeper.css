@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    display: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: lightgray 2px 2px 5px 5px;
+    width: 400px;
+    text-align: center;
+}
+
+.card hr {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+select, label, button, h1, h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+select {
+    border-radius: 10px;
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    border: none;
+    margin: 15px 2px 0px 2px;
+    cursor: pointer;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#btn1 {
+    background-color: lightgreen;
+}
+#btn2 {
+    background-color: lightblue;
+}
+#btnReset {
+    background-color: red;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
