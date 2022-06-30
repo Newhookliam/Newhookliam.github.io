@@ -17,11 +17,16 @@
         <nav>
             <h3>Welcome to my webpage!</h3>
             <div id="navItems">
-                <ul>
-                    <li> <a href="projects.html">Projects</a></li>
+                    <div class="dropdown">
+                        <li><a id="project" href="projects.html">Projects</a></li>
+                        <div class="dropdown-content">
+                            <a href="scoreKeeper.html">ScoreKeeper</a>
+                            <a href="todoList.html">Todo List</a>
+                            <a href="colorChanger.html">Color Changer</a>
+                        </div>
+                    </div>
                     <li> <a href="about.html">About me</a></li>
                     <li> <a href="learning.html">Still learning!</a></li>
-                </ul>
                 <a href="www.github.com/newhookliam">Github Account</a>
             </div>
         </nav>
@@ -66,5 +71,6 @@
         </div>
     </section>
 </main>
+<script src="main.js"></script>
 </body>
 </html>
