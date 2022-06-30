@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+body {
+    background-color: #d5ebdc;
+}
+
+>>>>>>> a7d1a49fd80ce878897225a34f42e4a5a70eb7df
 a {
     text-decoration: none;
     color: black;
@@ -22,6 +29,10 @@ img {
     display: column;
     justify-content: center;
     padding: 10px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7d1a49fd80ce878897225a34f42e4a5a70eb7df
 }
 
 .card {
@@ -29,6 +40,10 @@ img {
     box-shadow: lightgray 2px 2px 5px 5px;
     width: 400px;
     text-align: center;
+<<<<<<< HEAD
+=======
+    background-color: #fff;
+>>>>>>> a7d1a49fd80ce878897225a34f42e4a5a70eb7df
 }
 
 .card hr {
