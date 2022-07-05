@@ -1,5 +1,5 @@
 const form = document.querySelector('#formSearch');
-const input = document.querySelector('query');
+const btn = document.querySelector('#btn');
 
 form.addEventListener('click', async function (e) {
     e.preventDefault();
@@ -20,3 +20,6 @@ const addImage = (shows) => {
     }
 }
 
+btn.addEventListener('click', function () {
+
+})

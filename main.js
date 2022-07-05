@@ -23,18 +23,18 @@ const fetchData = async () => {
 }
 const addNewJoke = async () => {
     try {
+
         const jokeText = await fetchData();
         const newLi = document.createElement('LI');
         newLi.append(jokeText);
         jokes.append(newLi);
+
     }
     catch (e) {
         return 'No jokes available'
     }
 }
 
-btn2.addEventListener('click', function () {
-    addNewJoke();
-});
+btn2.addEventListener('click', addNewJoke)
 
 // end of jokes API
