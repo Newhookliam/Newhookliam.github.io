@@ -10,3 +10,31 @@ btn.addEventListener('mouseover', function () {
 items.addEventListener('mouseleave', function () {
     content.classList.remove('show');
 })
+
+// // call for jokes api
+const btn2 = document.querySelector('#btn');
+const jokes = document.querySelector('#jokes');
+
+const fetchData = async () => {
+
+    const config = { headers: { Accept: 'application/json' } }
+    const res = await axios.get('https://icanhazdadjoke.com/', config);
+    return res.data.joke;
+}
+const addNewJoke = async () => {
+    try {
+        const jokeText = await fetchData();
+        const newLi = document.createElement('LI');
+        newLi.append(jokeText);
+        jokes.append(newLi);
+    }
+    catch (e) {
+        return 'No jokes available'
+    }
+}
+
+btn2.addEventListener('click', function () {
+    addNewJoke();
+});
+
+// end of jokes API
